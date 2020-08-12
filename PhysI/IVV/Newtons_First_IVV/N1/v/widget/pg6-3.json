@@ -1,0 +1,104 @@
+{
+	"data" : {
+		"id" : "Widget_pg6-3",
+		
+		"xmin" : 0,
+		"xmax" : 1.00,
+		"xticks" : 9,
+		"xlabel" : "Time (s)",
+		"showXLabel" : true,
+		
+		"ymin" : 0,
+		"ymax" : 8,
+		"yticks" : 9,
+		"ylabel" : "Speed (m/s)",
+		"showYLabel" : true,
+		
+		"showLegend" : false,
+		"legendLocation" : "nw",
+		
+		"plots" : [
+			{
+				"label": "No",
+				
+				"trendline": false,
+				"dragable": false,
+				
+				"smooth": true,
+				"showLine": false,
+				"color": "",
+				"lineWidth": 2.5,
+				
+				"showMarkers": false,
+				"markerStyle": "filledCircle",
+				"markerSize": 9,
+				
+				"imports_from": "icepuck_slide",
+				"indices": {
+					"x": 0,
+					"y": 2
+				},
+				"equations": {
+					"x": "x",
+					"y": "y"
+				}
+			},
+			{
+				"label": "Horizontal Velocity",
+				
+				"trendline": false,
+				"dragable": false,
+				
+				"smooth": true,
+				"showLine": false,
+				"color": "SaddleBrown",
+				"lineWidth": 2.5,
+				
+				"showMarkers": true,
+				"markerStyle": "filledCircle",
+				"markerSize": 9,
+				
+				"imports_from": "icepuck_slide",
+				"indices": {
+					"x": 3,
+					"y": 1
+				},
+				"velocityGraph": true,
+				"equations": {
+					"x": "x",
+					"y": "y*-0.011"
+				}
+			},
+			{
+				"label": "Vertical Kinetic Energy",
+				
+				"trendline": false,
+				"dragable": false,
+				
+				"smooth": true,
+				"showLine": false,
+				"color": "",
+				"lineWidth": 2.5,
+				
+				"showMarkers": false,
+				"markerStyle": "filledCircle",
+				"markerSize": 9,
+				
+				"imports_from": "icepuck_slide",
+				"indices": {
+					"x": 0,
+					"y": 2
+				},
+				"velocityGraph": true,
+				"equations": {
+					"x": "x",
+					"y": "0.5*0.1*y*y"
+				}
+			}
+		]
+	},
+	"layout" : {
+		"type":"widget",
+		"template":"x-y-graph"
+	}
+}

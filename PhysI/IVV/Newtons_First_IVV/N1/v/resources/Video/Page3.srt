@@ -1,0 +1,27 @@
+0
+00:00:00,000 --> 00:00:04,500
+Now that you've made a prediction for what the speed vs. time graph should look like,
+
+1
+00:00:04,500 --> 00:00:07,000
+let's go ahead and measure the speed of the sliding block as a function of time. 
+
+2
+00:00:07,000 --> 00:00:12,000
+You do this by performing a video analysis of the sliding block movie. 
+
+3
+00:00:12,000 --> 00:00:16,000
+The idea is simple. You click on the center of the block in each frame of the movie.
+
+4
+00:00:16,000 --> 00:00:21,000
+The computer then calculates the speed by taking the distance travelled by the block between each set of frames
+
+5
+00:00:21,000 --> 00:00:24,000
+and dividing by the time. 
+
+6
+00:00:24,000 --> 00:00:30,000
+You should see the speed vs. time graph being constructed as you click on the frames in the movie. 

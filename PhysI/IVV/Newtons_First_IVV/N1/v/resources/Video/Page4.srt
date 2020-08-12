@@ -1,0 +1,23 @@
+0
+00:00:00,000 --> 00:00:05,000
+Notice that the speed decreases to zero in a steady, straight line manner. 
+
+1
+00:00:05,000 --> 00:00:08,000
+We call this a linear relationship. 
+
+2
+00:00:08,000 --> 00:00:13,000
+The amount of time it takes the block to come to rest depends on the slope of this line. 
+
+3
+00:00:13,000 --> 00:00:18,000
+A steep slope represents a large frictional force where the object comes to rest very quickly. 
+
+4
+00:00:18,000 --> 00:00:25,000
+A shallower slope represent a smaller frictional force where the block travels farther before coming to rest.
+
+5
+00:00:25,000 --> 00:00:30,000
+A horizontal line represents an object that doesn't slow down at all. 

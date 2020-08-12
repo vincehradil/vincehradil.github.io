@@ -1,0 +1,15 @@
+0
+00:00:00,000 --> 00:00:05,000
+We've just seen that when friction is acting, the block slows down and comes to rest.
+
+1
+00:00:05,000 --> 00:00:11,000
+One useful way of depicting this is to plot the speed of the block as a function of time.
+
+2
+00:00:11,800 --> 00:00:14,000
+Here are some sample speed versus time graphs. 
+
+3
+00:00:11,000 --> 00:00:20,000
+We'd like you to choose the one that you think best represents the motion of the sliding block. 

@@ -1,0 +1,70 @@
+{
+	"data": {
+		"id":"Widget_pg3-1",
+		"error_message":"Please click on the center of the block.",
+		"resource_url" : "resources/Analysis",
+		
+		"frames" : [
+			"N1_block_15fps_00.jpg",
+			"N1_block_15fps_01.jpg",
+			"N1_block_15fps_02.jpg",
+			"N1_block_15fps_03.jpg",
+			"N1_block_15fps_04.jpg",
+			"N1_block_15fps_05.jpg",
+			"N1_block_15fps_06.jpg",
+			"N1_block_15fps_07.jpg",
+			"N1_block_15fps_08.jpg",
+			"N1_block_15fps_09.jpg",
+			"N1_block_15fps_10.jpg",
+			"N1_block_15fps_10end.jpg"
+		],
+		
+		"instructions": "Click on the block in each frame.",
+		"tracks" : "circle",
+		"step_time" : 0.125,
+		"hint" : "",
+		
+		"displays" : "point",
+		"display_settings" : {
+			"hor_line_length": 1.5,
+			"canvas_width": 600,
+			"canvas_height": 300,
+			"draw_mult": 2
+		},
+		
+		"track_locations" : [
+			{"x":329, "y":74, "r":12},
+			{"x":295, "y":73, "r":12},
+			{"x":265, "y":72, "r":12},
+			{"x":238, "y":72, "r":12},
+			{"x":215, "y":71, "r":12},
+			{"x":195, "y":71, "r":12},
+			{"x":180, "y":70, "r":12},
+			{"x":168, "y":71, "r":12},
+			{"x":159, "y":70, "r":12},
+			{"x":153, "y":70, "r":12},
+			{"x":150, "y":70, "r":12},
+			{"x":500, "y":500, "r":12}
+		],
+
+		"exports_to" : "block_slide",
+		
+		"reporting" : [
+			{
+				"from_export_field": "lines",
+				"to_report_field": "table_lines",
+				"format": "unchanged"
+			},
+			{
+				"from_export_field": "warnings",
+				"to_report_field": "warnings",
+				"format": "unchanged"
+			}
+		]
+		
+	},
+	"layout": {
+		"type":"widget",
+		"template":"x-y-analysis"
+	}
+}

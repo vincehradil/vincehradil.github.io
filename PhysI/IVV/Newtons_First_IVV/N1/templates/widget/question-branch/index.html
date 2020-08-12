@@ -1,0 +1,35 @@
+<% if (typeof custom_styles !== "undefined" && custom_styles === true) { %>
+	<link rel="stylesheet" type="text/css" href="resources/Styles/<%= id %>.css">
+<% } %>
+<div id="<%= id %>" class="fill scrollable">
+	<p class="question_text" >
+		<%= question_text %>
+	</p>
+	<div class="question_answers" >
+		<% $.each(question_answers, function(index, value) { %>
+		<p>
+			<input type='radio' id='question-<%= id %>-<%= index %>'
+				title="<%= index %>"
+				name='<%= id %>' 
+				value='<%= index %>' class='question_answer_button' />
+			<label for='question-<%= id %>-<%= index %>' >
+				<% if (typeof question_answers_images !== "undefined" &&
+						typeof question_answers_images[index] !== "undefined" &&
+						typeof question_answers_images[index] !== null) {%>
+					<img src='<%= resource_url %>/<%= question_answers_images[index] %>' />
+				<% } %>
+				<%= value %>
+			</label>
+		</p>
+		<% }); %>
+	</div>
+	<p class="question_prompt">
+		You must answer this question before proceeding!
+	</p>
+</div>
+<div class="help_text">
+	<p>
+		Questions may change very little from one to the next.
+		Pay very close attention to specific verbiage before moving on!
+	</p>
+</div>

@@ -1,0 +1,11 @@
+{
+  "data": {
+    "source": "Widget_pg4-2.html",
+    "id": "Widget_pg4-2",
+    "url": "resources/Text/Widget_pg4-2.html"
+  },
+  "layout": {
+    "template": "text-html",
+    "type": "widget"
+  }
+}

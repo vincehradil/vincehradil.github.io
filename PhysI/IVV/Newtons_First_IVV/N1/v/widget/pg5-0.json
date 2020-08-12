@@ -1,0 +1,26 @@
+{
+  "data": {
+    "autoplay": true,
+    "muted": false,
+    "loop": false,
+    "sources": [
+      {
+        "source": "pg51.mp4",
+        "type": "video/mp4"
+      },
+      {
+        "source": "pg51.webm",
+        "type": "video/webm"
+      }
+    ],
+    "subs": [
+			{"source":"Page5.srt", "lang":"en"}
+		],
+    "id": "Widget_pg5-0",
+    "resource_url": "resources/Video"
+  },
+  "layout": {
+    "template": "video",
+    "type": "widget"
+  }
+}

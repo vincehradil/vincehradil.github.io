@@ -1,0 +1,63 @@
+{
+	"data": {
+		"id":"Widget_pg6-1",
+		"error_message":"Please click the center of the dry ice puck.",
+		"resource_url" : "resources/Analysis",
+		
+		"frames" : [
+			"dry_ice_analysis_00.jpg",
+			"dry_ice_analysis_01.jpg",
+			"dry_ice_analysis_02.jpg",
+			"dry_ice_analysis_03.jpg",
+			"dry_ice_analysis_04.jpg",
+			"dry_ice_analysis_05.jpg",
+			"dry_ice_analysis_06.jpg",
+			"dry_ice_analysis_07.jpg",
+			"dry_ice_analysis_08.jpg"
+		],
+		
+		"instructions": "Click on the center of the dry ice puck in each frame.",
+		"tracks" : "circle",
+		"step_time" : 0.125,
+		"hint" : "",
+		
+		"displays" : "point",
+		"display_settings" : {
+			"hor_line_length": 1.5,
+			"canvas_width": 600,
+			"canvas_height": 300,
+			"draw_mult": 2
+		},
+		
+		"track_locations" : [
+			{"x":506, "y":133, "r":12},
+			{"x":452, "y":133, "r":12},
+			{"x":398, "y":132, "r":12},
+			{"x":344, "y":131, "r":12},
+			{"x":289, "y":131, "r":12},
+			{"x":234, "y":130, "r":12},
+			{"x":180, "y":130, "r":12},
+			{"x":126, "y":128, "r":12},
+			{"x":72, "y":128, "r":12}
+		],
+
+		"exports_to" : "icepuck_slide",
+		
+		"reporting" : [
+			{
+				"from_export_field": "lines",
+				"to_report_field": "table_lines2",
+				"format": "unchanged"
+			},
+			{
+				"from_export_field": "warnings",
+				"to_report_field": "warnings2",
+				"format": "unchanged"
+			}
+		]
+	},
+	"layout": {
+		"type":"widget",
+		"template":"x-y-analysis"
+	}
+}

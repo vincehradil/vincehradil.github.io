@@ -1,0 +1,14 @@
+{
+  "data": {
+    "source": "Widget_certificate-0.html",
+    "id": "Widget_certificate-0",
+    "url": "resources/Text/Widget_certificate-0.html",
+    "prevent_back": true,
+    "imports_from": "login",
+    "custom_styles": false
+  },
+  "layout": {
+    "template": "certificate",
+    "type": "widget"
+  }
+}

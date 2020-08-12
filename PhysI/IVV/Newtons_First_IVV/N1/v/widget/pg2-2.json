@@ -1,0 +1,34 @@
+{
+	"data": {
+		"id":"Widget_pg2-2",
+		"question_text":"Question 1: Which of the following graphs looks most like what you would expect?",
+		"question_answers": [
+			"A.",
+			"B.",
+			"C.",
+			"D."
+		],
+		
+		"resource_url" : "resources/Question",
+		
+		"question_answers_images" : [
+			"graphA.gif",
+			"graphB.gif",
+			"graphC.gif",
+			"graphD.gif"
+		],
+		"exports_to" :"graph_choice",
+		
+		"reporting" : [
+			{
+				"from_export_field": "answer",
+				"to_report_field": "answer",
+				"format": "legacyAnswer"
+			}
+		]
+	},
+	"layout": {
+		"type":"widget",
+		"template":"horizontal-question"
+	}
+}

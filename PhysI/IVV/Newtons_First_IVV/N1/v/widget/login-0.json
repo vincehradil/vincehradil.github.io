@@ -1,0 +1,29 @@
+{
+  "data": {
+    "source": "Widget_login-0.html",
+    "id": "Widget_login-0",
+    "url": "resources/Text/Widget_login-0.html",
+        "fields": [
+            {
+                "label": "Name",
+                "width": 60,
+                "max_length": -1,
+                "restrict": "name"
+            }
+        ],
+
+        "exports_to": "login",
+        "custom_formatting" : true,
+        "reporting": [
+            {
+                "from_export_field": "answer",
+                "to_report_field": "answer",
+                "format": "legacyAnswer"
+            }
+        ]
+    },
+  "layout": {
+    "template": "login",
+    "type": "widget"
+  }
+}

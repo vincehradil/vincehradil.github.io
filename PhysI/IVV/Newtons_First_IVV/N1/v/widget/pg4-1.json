@@ -1,0 +1,24 @@
+{
+	"data": {
+		"id":"Widget_pg4-1",
+		"imports_from":"graph_choice",
+		"resource_url" : "resources/Question",
+		"sources" : [
+			"graphA.gif",
+			"graphB.gif",
+			"graphC.gif",
+			"graphD.gif"
+		],
+		
+		"answers": [
+			"<div style=\"padding: 20px; padding-top: 0px; margin: 0px; font-size: large; font-weight: bolder;\">You predicted that the graph would look like this:</div>",
+			"<div style=\"padding: 20px; padding-top: 0px; margin: 0px; font-size: large; font-weight: bolder;\">You predicted that the graph would look like this:</div>",
+			"<div style=\"padding: 20px; padding-top: 0px; margin: 0px; font-size: large; font-weight: bolder;\">You predicted that the graph would look like this:</div>",
+			"<div style=\"padding: 20px; padding-top: 0px; margin: 0px; font-size: large; font-weight: bolder;\">You predicted that the graph would look like this:</div>"
+		]
+	},
+	"layout": {
+		"type": "widget",
+		"template": "answer-image"
+	}
+}

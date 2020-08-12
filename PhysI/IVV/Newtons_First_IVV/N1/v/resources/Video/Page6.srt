@@ -1,0 +1,19 @@
+0
+00:00:00,000 --> 00:00:06,000
+Wow! That dry ice puck went about 100 feet and it didn't look like it would stop anytime soon.
+
+1
+00:00:06,000 --> 00:00:09,000
+But maybe it was slowing down and we just couldn't tell.
+
+2
+00:00:09,000 --> 00:00:14,000
+Let's do a video analysis to see if we can tell if it's slowing down or not.
+
+3
+00:00:14,000 --> 00:00:18,000
+As before, click on the center of the puck in each frame of the movie.
+
+4
+00:00:18,000 --> 00:00:24,000
+And remember, a horizontal line represents an object that's not slowing down at all.

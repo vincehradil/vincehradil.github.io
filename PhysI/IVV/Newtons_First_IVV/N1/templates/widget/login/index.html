@@ -1,0 +1,31 @@
+<% if (typeof custom_styles !== "undefined" && custom_styles === true) { %>
+	<link rel="stylesheet" type="text/css" href="resources/Styles/<%= id %>.css">
+<% } %>
+<div id="<%= id %>" class="fill scrollable">
+	<p class="login_intro" >
+		<!-- Customized HTML gets added here -->
+	</p>
+	<div class="login_form" >
+		<% if( !custom_formatting ) { %>
+			<form>
+				<% $.each( fields, function(index, field) {%>
+					<p>
+						<%= field.label %>:
+							<input
+								id='login-<%= id %>-<%= index %>'
+								class='login_text'
+								type='text'
+								name='login-<%= index %>'
+								<% if( field.max_length <= 0 ) { %> maxlength='524288' <% } else { %> maxlength='<%= field.max_length %>' <% } %>
+								size='<%= field.width %>'
+								<% if( index === 0 ) { %> autofocus <% } %>
+							/>
+					</p>
+				<% }); %>
+			</form>
+		<% } %>
+	</div>
+	<p class="question_prompt">
+		You must complete all fields before proceeding!
+	</p>
+</div>

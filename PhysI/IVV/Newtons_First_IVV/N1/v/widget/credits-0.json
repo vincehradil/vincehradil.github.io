@@ -1,0 +1,11 @@
+{
+  "data": {
+    "source": "Widget_credits-0.html",
+    "id": "Widget_credits-0",
+    "url": "resources/Text/Widget_credits-0.html"
+  },
+  "layout": {
+    "template": "text-html",
+    "type": "widget"
+  }
+}

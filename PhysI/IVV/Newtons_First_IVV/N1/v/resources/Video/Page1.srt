@@ -1,0 +1,43 @@
+0
+00:00:00,000 --> 00:00:05,500
+[sound effects]
+
+1
+00:00:05,500 --> 00:00:10,000
+We are here in the beautiful school of law building to do some physics experiments 
+
+2
+00:00:10,000 --> 00:00:17,000
+If I take some object, maybe a chair, and I give it a shove, and let it go, what do you think will happen? 
+
+3
+00:00:17,000 --> 00:00:24,000
+[It'll move a few feet and then stop.]  [Or fall over.]
+
+4
+00:00:24,000 --> 00:00:29,000
+We're going to try that experiment right here. Instead of a chair we'll use a piece of wood. 
+
+5
+00:00:29,000 --> 00:00:32,000
+I'm going to give it a pretty good shove.
+
+6
+00:00:32,000 --> 00:00:34,000
+1, 2, 3...
+
+7
+00:00:34,000 --> 00:00:37,000
+OK, come on back and tell me what you saw.
+
+8
+00:00:37,000 --> 00:00:42,000
+[Well, it moved a couple inches and then stopped.] [It didn't move much.]
+
+9
+00:00:42,000 --> 00:00:46,000
+Why do you think it didn't move much?
+
+10
+00:00:46,000 --> 00:00:50,000
+[Friction would be my guess.]
